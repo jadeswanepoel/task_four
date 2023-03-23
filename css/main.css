@@ -1,7 +1,7 @@
 
 .intro{
     text-align: center;
-    background-color: gray;
+    background-color: black;
     height: 100px;
     padding-top: 30px;
     color: white;
@@ -12,11 +12,24 @@
     text-align: center;
 }
 
+.row h2{
+    font-family: 'montserrat';
+}
+
+.row h1{
+    font-family: 'playfair display';
+}
+
+.row p{
+    font-family: 'montserrat';
+}
 
 .col-box{
     width: 150px;
     height: 150px;
-    background-color: lightgray;
+    background-image: url(../assets/old_eleven.png);
+    background-size: cover;
+    background-position: center;
     margin-top: 50px;
     text-align: right;
     padding-top: 100px;
@@ -31,6 +44,7 @@
     padding-top: 20px;
     padding-left: 50px;
     text-align: left;
+    
 }
 
 .col-6 text{
@@ -57,13 +71,16 @@
 .round-image{
     width: 500px;
     height: 500px;
-    background-color: lightgray;
+    background-image: url(../assets/hands.jpg);
+    background-size: cover;
+    background-position: center;
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
     float: left;
     padding-left: 70%;
+
 }
 
 .my-element{
@@ -138,6 +155,7 @@
 
 .nav-con ul{
     list-style: none;
+    float: right;
 }
 
 
@@ -162,18 +180,31 @@
     cursor: pointer;
 }
 
+.footer-con ul{
+    list-style: none;
+    float: right;
+}
+
+.footer-con li{
+    float: center;
+    height: 25px;
+    width: 25px;
+}
+
 
 .logo{
     color: white;
     padding-left: 10%;
     padding-top: 20px;
+    font-family: 'Rubik Iso', cursive;
 }
 
 nav{
     width: 100%;
     height: 80px;
-    background-color: grey;
-    color: black;
+    background-color: black;
+    color: white;
+    float: left;
 }
 
 
@@ -184,18 +215,24 @@ header{
     padding-left: 10%;
     padding-right: 40%;
     padding-top: 10%;
-    background-color: lightgray;
+    background-color: black;
     text-align: left;
+    font-family: 'playfair display';
+    color: white;
+    background-image: url(../assets/maxresdefault.jpg);
 }
+
+
 
 header p{
     width: 50%;
-    background-color: lightgray;
+    color: white;
+    font-family: 'montserrat',serif;
 }
 
 
 footer{
-    height: 100px;
+    height: 150px;
     width: 100%;
     background-color: black;
     color: white;
@@ -206,9 +243,7 @@ footer{
 
 
 .col-box2{
-    width: 600px;
-    height: 10%;
-    background-color: lightgray;
+
     text-align: left;
     padding-top: 50px;
     border-radius: 2px;
@@ -217,4 +252,10 @@ footer{
     padding-top: 100%;
 
 }
+
+.col-12{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+  
 
